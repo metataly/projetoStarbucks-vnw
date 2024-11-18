@@ -5,7 +5,7 @@ import {MainStyle, SectionStyle, ButtonStyle, H3Style, H2Style} from './style';
 export default function Home() {
     return (
         <MainStyle>
-            <img src={starImg} alt="" />
+            <img src={starImg} alt="Fachada do Starbucks" />
             <SectionStyle>
                 <H3Style>PREPARAÇÃO</H3Style>
                 <H2Style>Níveis de torra</H2Style>

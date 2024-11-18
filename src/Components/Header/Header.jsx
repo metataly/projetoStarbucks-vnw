@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/imgs/logo.png"
-import {HeaderStyle, Navlist, NavStyle} from './style';
+import {HeaderStyle, Navlist, NavStyle, LinkStyle} from './style';
 
 export default function Header() {
   return (
     <HeaderStyle>
-      <img src={logo} alt="Logomarca" />
+      <img src={logo} alt="Logomarca starbucks" />
       <NavStyle>
         <Navlist>
           <li>
-            <Link to="/">Home</Link>
+            <LinkStyle to="/">Home</LinkStyle>
           </li>
           <li>
-            <Link to="/novidades">Novidades</Link>
+            <LinkStyle to="/novidades">Novidades</LinkStyle>
           </li>
           <li>
-            <Link to="/sobre">Sobre</Link>
+            <LinkStyle to="/sobre">Sobre</LinkStyle>
           </li>
         </Navlist>
       </NavStyle>

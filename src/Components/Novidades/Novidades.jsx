@@ -12,7 +12,7 @@ export default function Novidades() {
                 <ButtonStyle>SAIBA MAIS</ButtonStyle>
             </SectionStyle>
             
-            <img src={starImg} alt="" />
+            <img src={starImg} alt="Grão de Café" />
         </MainStyle>
 
     )

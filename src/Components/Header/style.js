@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom'
 
 export const HeaderStyle = styled.header `
     display: flex;
@@ -18,3 +19,11 @@ export const Navlist = styled.ul `
     list-style: none;
 `;
 
+export const LinkStyle = styled(Link) `
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: #007C43;
+    }
+`;

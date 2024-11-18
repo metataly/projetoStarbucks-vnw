@@ -8,15 +8,15 @@ import GlobalStyle from "./Components/GlobalStyle/GlobalStyle";
 export default function App() {
   return (
     <>
-    <GlobalStyle />
-      <BrowserRouter>
-        <Header/>
-          <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/novidades" element={<Novidades/>}/>
-            <Route path="/sobre" element={<Sobre/>}/>
-          </Routes>
-        </BrowserRouter>
+      <GlobalStyle /> 
+      <BrowserRouter> 
+        <Header /> 
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/novidades" element={<Novidades />} />
+          <Route path="/sobre" element={<Sobre />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
