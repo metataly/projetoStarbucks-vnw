@@ -7,6 +7,12 @@ export const MainStyle = styled.main `
     padding: 5vw;
     background-color: #1E3932;
     height: 100vh;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+        font-size: 1.1em;
+    }
+
 `;
 
 
@@ -15,6 +21,11 @@ export const SectionStyle = styled.section `
     color: white;
     font-family: "Poppins";
     text-align: justify;
+
+
+    @media (max-width: 900px) {
+        width: 100%;
+    }
 `;
 
 export const ButtonStyle = styled.button `
@@ -33,10 +44,18 @@ export const ButtonStyle = styled.button `
 
 export const H3Style = styled.h3 `
     font-family: "Inter";
+
+    @media (max-width: 900px) {
+        font-size: 0.8em;
+    }
 `;
 
 export const H2Style = styled.h2 `
     font-size: 3em;
     font-weight: 400;
     margin: 0;
+
+    @media (max-width: 900px) {
+        font-size: 2.5em;
+    }
 `;

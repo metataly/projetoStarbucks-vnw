@@ -5,6 +5,14 @@ export const MainStyle = styled.main `
     align-items: center;
     justify-content: space-around;
     padding: 5vw;
+
+    
+    @media (max-width: 900px) {
+        flex-direction: column;
+        margin: 5vh 0;
+        font-size: 1.1em;
+    }
+
 `;
 
 export const SectionStyle = styled.section `
@@ -12,6 +20,13 @@ export const SectionStyle = styled.section `
     color: #1E3932;
     font-family: "Poppins";
     text-align: justify;
+
+    
+    @media (max-width: 900px) {
+        width: 100%;
+        margin-top: 5vh;
+    }
+
 `;
 
 export const ButtonStyle = styled.button `
@@ -36,4 +51,8 @@ export const H2Style = styled.h2 `
     font-size: 3em;
     font-weight: 400;
     margin: 0;
+
+    @media (max-width: 900px) {
+        font-size: 2.5em;
+    }
 `;
